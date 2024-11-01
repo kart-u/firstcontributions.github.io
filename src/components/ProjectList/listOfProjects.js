@@ -1298,7 +1298,7 @@ const projectList = [
     name: "aprenda-go-com-testes",
     imageSrc:
       "https://raw.githubusercontent.com/larien/aprenda-go-com-testes/refs/heads/main/.gitbook/assets/red-green-blue-gophers-smaller.png",// added valid link here
-    projectLink: "https://github.com/larien/aprenda-go-com-testes",
+    projectLink: "https://github.com/larien/aprenda-go-com-testes",// corrected this instead of projectLink it was githubLink which was messing CSS
     description: "learn easily and quickly",
     tags: ["go"],
   },

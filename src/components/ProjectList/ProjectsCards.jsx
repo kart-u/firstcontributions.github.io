@@ -1,6 +1,7 @@
 import React from "react";
 import "./css/project-cards.css";
 
+
 const Card = ({
   projectLink,
   logoLink,
@@ -26,6 +27,10 @@ const Card = ({
             className="Project-Logo"
             alt="the framework or language that the project is build upon"
             src={logoLink}
+            onError={(e)=>{
+              e.target.onerror=null;
+              e.target.src="https://avatars0.githubusercontent.com/u/20078201?s=460&u=3e17a0f93f3c87b4dcef5671b623519229a5c4fb&v=4"//Default image source
+            }}
           />
           <p className="Card-Title">{name}</p>
         </div>
